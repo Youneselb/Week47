@@ -16,30 +16,7 @@ public class Week47 {
 	 */
 	public static void main(String[] args) {
 		String filenamePronouns = "Data/pronouns";
-		String filenameVerbs = "Data/verbs";
-		String filenameArticles = "Data/article";
-		String filenameNouns = "Data/nouns";
-		String filenameAdj = "Data/adj";
-		String filenameConj = "Data/conj";
-		SentenceBuilder sb = new SentenceBuilder(filenamePronouns,filenameVerbs,filenameArticles,filenameNouns);
+		SentenceBuilder sb = new SentenceBuilder(filenamePronouns);
 		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		System.out.println("S: " + sb.buildSentence());
-		
 	}
 }
